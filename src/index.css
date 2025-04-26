@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 210 79% 33%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 189 100% 32%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 189 45% 80%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl mb-6;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl mb-5;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl mb-4;
+  }
+
+  p {
+    @apply mb-4;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container px-4 md:px-6 mx-auto max-w-7xl;
+  }
+
+  .section {
+    @apply py-12 md:py-16 lg:py-24;
+  }
+  
+  .btn-primary {
+    @apply bg-mcrt-blue hover:bg-blue-800 text-white px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-mcrt-teal hover:bg-teal-700 text-white px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .btn-outline {
+    @apply border-2 border-mcrt-blue text-mcrt-blue hover:bg-mcrt-blue hover:text-white px-6 py-3 rounded-md font-medium transition-colors;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4 text-mcrt-dark;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-8 max-w-3xl;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-shadow hover:shadow-lg;
+  }
+}
