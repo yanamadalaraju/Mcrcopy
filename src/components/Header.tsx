@@ -190,11 +190,12 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <SEO
-        title="MCR India | Digital Solutions, Tally Customization & ERP Services"
-        description="Explore MCR India's Tally ERP customization, integration, mobile applications, and web solutions tailored to meet your business needs."
-        keywords="Tally ERP, Tally Customization, Tally Implementation, ERP Solutions, Web Applications, Mobile Applications, Tally Integration, Digital Solutions India, Tally on Web, Mobile Access ERP"
-        url="http://mcrindia.in"
-      />
+  title="Home | MCR India"
+  description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
+  keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development, Best tally in Bangalore, Tally ERP customization, Mobile app development, Enterprise software solutions, Tally on web, Business automation, MCRT Software, Digital transformation services, Tally services"
+  baseUrl="https://mcrindia.in"
+/>
+
 
       <div className="container-custom flex justify-between items-center py-4">
         <Link to="/" className="flex items-center">

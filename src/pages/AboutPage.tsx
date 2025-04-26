@@ -168,12 +168,12 @@ const AboutPage = () => {
   return (
     <>
       <SEO
-        title="Home | MCR India"
-        description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
-        keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development,Best tally in banglore,Tally ERP customization
-,Mobile app development,Enterprise software solutions,Tally on web,Business automation,MCRT Software,Digital transformation services,Tally services"
-        url="http://mcrindia.in"
-      />
+  title="Home | MCR India"
+  description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
+  keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development, Best tally in Bangalore, Tally ERP customization, Mobile app development, Enterprise software solutions, Tally on web, Business automation, MCRT Software, Digital transformation services, Tally services"
+  baseUrl="https://mcrindia.in"
+/>
+
       
       {/* SEO Meta Tags using react-helmet */}
       <Helmet>

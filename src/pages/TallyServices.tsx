@@ -37,11 +37,12 @@ const TallyServices: React.FC = () => {
   return (
     <div>
       <SEO
-        title="Tally Customization Services | MCR India"
-        description="Expert Tally ERP 9 customization, integration, and mobile/web access solutions for businesses in India. Enhance your workflow with MCR India's Tally services."
-        keywords="Tally ERP 9, Tally Customization, Tally on Web, ERP Solutions Bangalore, Tally Integration India, Tally Data Migration, Tally Training, Cloud ERP Solutions, ERP System Integration"
-        url="http://mcrindia.in/tally-services"
-      />
+  title="Home | MCR India"
+  description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
+  keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development, Best tally in Bangalore, Tally ERP customization, Mobile app development, Enterprise software solutions, Tally on web, Business automation, MCRT Software, Digital transformation services, Tally services"
+  baseUrl="https://mcrindia.in"
+/>
+
 
       <h1>Tally Customization Services</h1>
       <p>

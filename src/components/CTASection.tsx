@@ -57,11 +57,12 @@ const CTASection = ({
   return (
     <>
       <SEO
-        title="Contact MCR India | Digital Solutions & Business Growth"
-        description="Get in touch with MCR India to transform your business with our digital solutions. Discover how our Tally ERP and custom web/mobile applications can help your business grow."
-        keywords="Contact MCR India, Digital Solutions, Tally ERP, Business Growth, Tally Customization, Web Development, Mobile Application, Contact Us"
-        url="http://mcrindia.in/contact"
-      />
+  title="Home | MCR India"
+  description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
+  keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development, Best tally in Bangalore, Tally ERP customization, Mobile app development, Enterprise software solutions, Tally on web, Business automation, MCRT Software, Digital transformation services, Tally services"
+  baseUrl="https://mcrindia.in"
+/>
+
       
       <section className={`${bgColor} py-16 px-4`}>
         <div className="container-custom text-center">

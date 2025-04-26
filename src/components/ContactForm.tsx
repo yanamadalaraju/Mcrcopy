@@ -179,11 +179,12 @@ const ContactForm = () => {
   return (
     <>
       <SEO
-        title="Contact MCR India | Get in Touch with Our Experts"
-        description="Fill out the form to get in touch with MCR India's team. We'll assist you with your digital solution needs. Whether you're looking for Tally ERP implementation or web applications, we are here to help."
-        keywords="Contact MCR India, Get in touch, Digital Solutions, Tally ERP, Tally Implementation, Web Development, Contact Form, Business Solutions"
-        url="http://mcrindia.in/contact"
-      />
+  title="Home | MCR India"
+  description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
+  keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development, Best tally in Bangalore, Tally ERP customization, Mobile app development, Enterprise software solutions, Tally on web, Business automation, MCRT Software, Digital transformation services, Tally services"
+  baseUrl="https://mcrindia.in"
+/>
+
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

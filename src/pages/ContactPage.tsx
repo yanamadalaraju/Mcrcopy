@@ -143,19 +143,22 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
-import { Helmet } from 'react-helmet'; // Importing react-helmet
+import { Helmet } from 'react-helmet';
 import SEO from "@/components/SEO";
 
 const ContactPage = () => {
+  const emailUser = "sales";
+  const emailDomain = "mcrindia.in";
+
   return (
     <>
       <SEO
-        title="Home | MCR India"
-        description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
-        keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development,Best tally in banglore,Tally ERP customization
-,Mobile app development,Enterprise software solutions,Tally on web,Business automation,MCRT Software,Digital transformation services,Tally services"
-        url="http://mcrindia.in"
-      />
+  title="Home | MCR India"
+  description="Welcome to MCR India. We offer digital solutions like Tally ERP implementation, web development, and more."
+  keywords="Home, MCR India, Digital Solutions, Tally ERP, Web Development, Best tally in Bangalore, Tally ERP customization, Mobile app development, Enterprise software solutions, Tally on web, Business automation, MCRT Software, Digital transformation services, Tally services"
+  baseUrl="https://mcrindia.in"
+/>
+
       <Helmet>
         <title>Contact Us - MCRT Software</title>
         <meta 
@@ -220,7 +223,12 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Email Us</h3>
-                    <p className="text-gray-600">sales@mcrindia.in</p>
+                    {/* Obfuscated Email */}
+                    <p className="text-gray-600">
+                      <a href={`mailto:${emailUser}@${emailDomain}`}>
+                        {emailUser}@{emailDomain}
+                      </a>
+                    </p>
                   </div>
                 </div>
 

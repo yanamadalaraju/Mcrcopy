@@ -67,7 +67,7 @@ import TallyWebPage from "./pages/services/TallyWebPage";
 import WebApplicationsPage from "./pages/services/WebApplicationsPage";
 import MobileAppPage from "./pages/MobileAppPage";
 import ContactPage from "./pages/ContactPage";
-import NotFound from "./pages/NotFound";
+// import NotFound from "./pages/NotFound";
 import QuotePage from "./pages/QuotePage";
 import TallyServices from "./pages/TallyServices";
 
@@ -273,7 +273,7 @@ const App = () => (
             />
             <Route path="/quote" element={<QuotePage />} />
             <Route path="/tally-services" element={<TallyServices />} />
-            <Route path="*" element={<NotFound />} />
+            {/* <Route path="*" element={<NotFound />} /> */}
           </Routes>
         </BrowserRouter>
       </HelmetProvider>
